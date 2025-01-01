@@ -90,3 +90,8 @@ def homepage(request):
     
 def gitview(req):
     return HttpResponse("<h1>Hello from Git-view</h1><hr />")
+def githubview(req):
+    return HttpResponse("<h1>Hello from Github-view</h1><hr />")
+		
+	
+	
